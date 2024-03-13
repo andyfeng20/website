@@ -65,7 +65,7 @@ const Experiences = () => {
                                 </div>
                                 <div class="w-3/4 text-left h-full">
                                     <h3 class="font-semibold">TMT Investment Summer Analyst - Springs Capital 🔗</h3>
-                                    <h4 class="pt-1 font-medium text-gray-400">Hedge fund with $15B AUM</h4>
+                                    <h4 class="pt-1 font-medium text-gray-400">Hedge fund with $10B AUM</h4>
                                     <p class="pt-2 text-gray-400">Pitched Palo Alto Networks (PANW) for best-in-class security platform and CrowdStrike (CRWD) for best-of-breed
                                         cloud-native endpoint security, both outperforming S&P 500 by 111.7% and 100.5% over a 20-month period.
                                         Initiated coverage on several technology companies within the enterprise software industry, conducted and participated
