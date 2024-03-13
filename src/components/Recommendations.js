@@ -13,8 +13,8 @@ import gamecraft from './imgs/ab6765630000ba8af662927adc2c9d6505e05b51.jpeg';
 
 const Recommendations = () => {
     return (
-        <section id="recommendations" className="text-white ml-24 pr-40 pt-16 pb-24">
-            <div className="container mx-auto px-12">
+        <section id="recommendations" className="text-white lg:ml-24 lg:pr-40 lg:pt-16 lg:pb-24 ml-8 pr-8">
+            <div className="container mx-auto lg:px-12">
                 <div className="text-left">
                     <h2 id='books' className="text-lg font-semibold mb-6">Books</h2>
                     <div className="flex overflow-x-auto pb-12 scroll-behavior-smooth">

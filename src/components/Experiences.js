@@ -2,8 +2,8 @@ import React from 'react';
 
 const Experiences = () => {
     return (
-        <section id="experiences" className="text-gray-400 ml-20 pr-40">
-            <div className="container mx-auto px-12 pt-16 pb-16">
+        <section id="experiences" className="text-gray-400 lg:ml-20 lg:pr-40 ml-8 pr-8">
+            <div className="container mx-auto lg:px-12 lg:pt-16 lg:pb-16">
                 <ol className="group/list">
 
                     <li id="Shade" class="group relative rounded min-h-4 hover:bg-gray-800 hover:!opacity-100 group-hover/list:opacity-50 text-white hover:text-sky-500">

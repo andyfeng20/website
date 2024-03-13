@@ -2,8 +2,8 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <section id="projects" className="text-gray-400 ml-20 pr-40">
-            <div className="container mx-auto px-12 pt-16">
+        <section id="projects" className="text-gray-400 lg:ml-20 lg:pr-40">
+            <div className="container lg:mx-auto lg:px-12 lg:pt-16">
                 <ol className="group/list">
                     <li class="group relative rounded-lg min-h-4 hover:bg-gray-800 hover:!opacity-100 group-hover/list:opacity-50 text-white hover:text-sky-500">
                         <a href="https://www.shade.inc/" target="_blank" rel="noreferrer">

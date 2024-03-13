@@ -34,7 +34,7 @@ const Header = () => {
 
     return (
         <header className="text-gray-400 p-8">
-            <div className="container ml-32 pr-24">
+            <div className="container ml-8 pr-16 lg:ml-32 lg:pr-24">
                 <div className="text-left">
                     <h1 id='top' className="text-gray-50 text-6xl font-bold mb-8">
                         <a href='#top'>Andy Feng</a>
@@ -49,7 +49,7 @@ const Header = () => {
                 </div>
             </div>
             <div>
-                <ol className="text-left ml-32 pt-16 font-medium text-xl">
+                <ol className="text-left ml-8 pt-8 lg:ml-32 lg:pt-16 font-medium text-xl">
                     <li className={`pb-4 ${activeSection === 'about' ? 'text-white font-bold' : 'text-gray-400'}`}>
                         <a href='#about' className="ease-in-out">About</a>
                     </li>
@@ -64,7 +64,7 @@ const Header = () => {
                     </li>
                 </ol>
             </div>
-            <div className="h-dvh pt-72 pl-32">
+            <div className="lg:h-dvh pl-8 pt-8 lg:pt-72 lg:pl-32">
                 <ul className="flex items-center">
                     <li className="mr-10">
                         <a className="block hover:text-sky-500" href='https://www.linkedin.com/in/andyfeng24/' target='_blank' rel="noreferrer">
