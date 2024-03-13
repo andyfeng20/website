@@ -24,7 +24,7 @@ const About = () => {
                     <p>
                         I'm always trying to learn more about innovative technologies and the companies that are building them. My focus recently has been on artificial intelligence, augmented reality, and virtual reality because I see these technologies as the next major platform shifts that will change the world.
                         I will try to share what I'm learning on my{' '}
-                        <a href='https://www.amazon.com/Power-Law-Venture-Capital-Making/dp/052555999X' target='_blank' rel="noreferrer" className="text-white hover:text-sky-500">blog</a>. I'm always looking to learn more, so please reach out if you'd like to chat!
+                        <a href='https://medium.com/@afeng20' target='_blank' rel="noreferrer" className="text-white hover:text-sky-500">blog</a>. I'm always looking to learn more, so please reach out if you'd like to chat!
                     </p>
                 </div>
             </div>

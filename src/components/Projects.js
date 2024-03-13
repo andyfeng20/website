@@ -9,7 +9,7 @@ const Projects = () => {
                         <div class="p-6 flex">
                             <div class="w-full text-left h-full">
                                 <h3 class="font-semibold">Question Answering LLM</h3>
-                                <p class="pt-2 text-gray-400">Developed an NLP model by fine-tuning a BERT-like model to accurately answer questions about written passages.
+                                <p class="pt-2 text-gray-400">Developed a NLP model by fine-tuning a BERT-like (distilBERT) model on the SQuAD 2.0 dataset to accurately answer questions about written passages.
                                     Implemented tokenization, data pre-processing, and data loading to improve efficiency and performance
                                 </p>
                             </div>
@@ -36,28 +36,30 @@ const Projects = () => {
                         </ul>
                     </li>
                     <li class="group relative rounded-lg min-h-4 hover:bg-gray-800 hover:!opacity-100 group-hover/list:opacity-50 text-white hover:text-sky-500">
-                        <div class="p-6 flex">
-                            <div class="w-full text-left h-full">
-                                <h3 class="font-semibold">Facial Recognition Classification Model</h3>
-                                <p class="pt-2 text-gray-400">Developed and compared a deep learning convolutional neural network (CNN) and a deep learning residual network
-                                    (ResNet) to classify faces, resulting in a 90% accuracy rate and an AUROC score exceeding 98%
-                                </p>
+                        <a href="https://drive.google.com/file/d/1ZACTxgvgKHgDwcS4i7mVGazkxDO2vQZS/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <div class="p-6 flex">
+                                <div class="w-full text-left h-full">
+                                    <h3 class="font-semibold">Facial Recognition Classification Model 🔗</h3>
+                                    <p class="pt-2 text-gray-400">Developed and compared a deep learning convolutional neural network (CNN) and a deep learning residual network
+                                        (ResNet) to classify faces training on the LFW dataset, resulting in a 90% accuracy rate and an AUROC score exceeding 98%
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <ul class="ml-6 pb-6 flex flex-wrap">
-                            <li class="mr-1.5 mt-2">
-                                <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">Deep Learning</div>
-                            </li>
-                            <li class="mr-1.5 mt-2">
-                                <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">Computer Vision</div>
-                            </li>
-                            <li class="mr-1.5 mt-2">
-                                <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">OpenVC</div>
-                            </li>
-                            <li class="mr-1.5 mt-2">
-                                <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">Python</div>
-                            </li>
-                        </ul>
+                            <ul class="ml-6 pb-6 flex flex-wrap">
+                                <li class="mr-1.5 mt-2">
+                                    <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">Deep Learning</div>
+                                </li>
+                                <li class="mr-1.5 mt-2">
+                                    <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">Computer Vision</div>
+                                </li>
+                                <li class="mr-1.5 mt-2">
+                                    <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">OpenVC</div>
+                                </li>
+                                <li class="mr-1.5 mt-2">
+                                    <div class="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300 ">Python</div>
+                                </li>
+                            </ul>
+                        </a>
                     </li>
                     <li class="group relative rounded-lg min-h-4 hover:bg-gray-800 hover:!opacity-100 group-hover/list:opacity-50 text-white hover:text-sky-500">
                         <div class="p-6 flex">

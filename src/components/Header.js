@@ -27,6 +27,8 @@ const Header = () => {
             }
         };
 
+        handleScroll();
+
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
@@ -34,7 +36,7 @@ const Header = () => {
 
     return (
         <header className="text-gray-400 p-8">
-            <div className="container ml-8 pr-16 lg:ml-32 lg:pr-24">
+            <div className="container ml-8 pl-18 lg:ml-32 lg:pl-18">
                 <div className="text-left">
                     <h1 id='top' className="text-gray-50 text-6xl font-bold mb-8">
                         <a href='#top'>Andy Feng</a>
@@ -44,7 +46,7 @@ const Header = () => {
                     </h2>
                     <p className="text-base">Thinking about how Artificial Intelligence, AR/VR, and other emerging technologies will change the world.
                         Read my thoughts on my{' '}
-                        <a href='https://substack.com/@andyfeng' target='_blank' rel="noreferrer" className="text-white hover:text-sky-500">blog</a>.
+                        <a href='https://medium.com/@afeng20' target='_blank' rel="noreferrer" className="text-white hover:text-sky-500">blog</a>.
                     </p>
                 </div>
             </div>
@@ -78,12 +80,17 @@ const Header = () => {
                             </svg>
                         </a>
                     </li>
-                    <li>
-                        <a className="block hover:text-sky-500" href='https://substack.com/@andyfeng' target='_blank' rel="noreferrer">
-                            <svg className="h-14 w-14 fill-current" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 448 511.471"><path d="M0 0h448v62.804H0V0zm0 229.083h448v282.388L223.954 385.808 0 511.471V229.083zm0-114.542h448v62.804H0v-62.804z" />
-                            </svg>
+                    <li className='mr-10'>
+                        <a className="block hover:text-sky-500" href='https://medium.com/@afeng20' target='_blank' rel="noreferrer">
+                            <svg className="h-14 w-14 fill-current" viewBox="0 -55 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M72.2 0c39.877 0 72.2 32.549 72.2 72.696 0 40.148-32.326 72.694-72.2 72.694-39.872 0-72.2-32.546-72.2-72.694C0 32.55 32.325 0 72.2 0Zm115.3 4.258c19.938 0 36.101 30.638 36.101 68.438h.003c0 37.791-16.163 68.438-36.1 68.438-19.939 0-36.101-30.647-36.101-68.438 0-37.79 16.16-68.438 36.098-68.438Zm55.803 7.129c7.011 0 12.697 27.449 12.697 61.31 0 33.85-5.684 61.31-12.697 61.31-7.013 0-12.694-27.452-12.694-61.31 0-33.859 5.684-61.31 12.694-61.31Z" /></svg>
                         </a>
                     </li>
+                    <li className='mr-10'>
+                        <a className="block hover:text-sky-500" href='https://github.com/andyfeng20' target='_blank' rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-14 w-14 fill-current"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg>
+                        </a>
+                    </li>
+                   
                 </ul>
             </div>
         </header>
