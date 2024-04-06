@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
+import Blog from './components/Blog';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Recommendations from './components/Recommendations';
@@ -27,6 +28,7 @@ function App() {
             </div>
             <div class=" lg:w-3/5 overflow-y-auto lg:pb-32">
               <About />
+              <Blog />
               <Experiences />
               <Projects />
               <Recommendations />

@@ -6,6 +6,7 @@ const Header = () => {
     useEffect(() => {
         const handleScroll = () => {
             const aboutSection = document.getElementById('about');
+            const blogSection = document.getElementById('blog');
             const experiencesSection = document.getElementById('experiences');
             const projectsSection = document.getElementById('projects');
             const recommendationsSection = document.getElementById('recommendations');
@@ -16,8 +17,10 @@ const Header = () => {
                 || (scrollPosition >= recommendationsSection.offsetTop + recommendationsSection.offsetHeight)
             ) {
                 setActiveSection('top');
-            } else if (scrollPosition >= aboutSection.offsetTop && scrollPosition < experiencesSection.offsetTop) {
+            } else if (scrollPosition >= aboutSection.offsetTop && scrollPosition < blogSection.offsetTop) {
                 setActiveSection('about');
+            } else if (scrollPosition >= blogSection.offsetTop && scrollPosition < experiencesSection.offsetTop) {
+                setActiveSection('blog');    
             } else if (scrollPosition >= experiencesSection.offsetTop && scrollPosition < projectsSection.offsetTop) {
                 setActiveSection('experiences');
             } else if (scrollPosition >= projectsSection.offsetTop && scrollPosition < recommendationsSection.offsetTop) {
@@ -54,6 +57,9 @@ const Header = () => {
                 <ol className="text-left ml-8 pt-8 lg:ml-32 lg:pt-16 font-medium text-xl">
                     <li className={`pb-4 ${activeSection === 'about' ? 'text-white font-bold' : 'text-gray-400'}`}>
                         <a href='#about' className="ease-in-out">About</a>
+                    </li>
+                    <li className={`pb-4 ${activeSection === 'blog' ? 'text-white font-bold' : 'text-gray-400'}`}>
+                        <a href='#blog' className="ease-in-out">Blog Posts</a>
                     </li>
                     <li className={`pb-4 ${activeSection === 'experiences' ? 'text-white font-bold' : 'text-gray-400'}`}>
                         <a href='#experiences' className="ease-in-out">Experiences</a>
